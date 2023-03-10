@@ -1,0 +1,59 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+  background: #333;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.world-container {
+  position: relative; 
+ 
+  margin: 0 auto;
+  outline: 1px solid #fff;
+
+  transform: scale(3) translateY(50%);
+}
+
+
+
+.station {
+  position: relative;
+	width: 100px;
+	height: 100px;
+  background: red;
+	
+}
+
+.pool {
+  position: relative;
+	width: 100px;
+	height: 100px;
+  background: rgb(62, 48, 220);
+	
+}
+
+.login {
+  position: relative;
+	width: 100px;
+	height: 100px;
+  background: rgba(54, 172, 94, 0.666);
+
+}
+
+.game{
+  position:relative; 
+  /* width: (32*15)px;
+  height: (32*12)px; */
+  margin: 0 auto;
+  outline: 1px solid #fff;
+
+  transform: scale(1) translateY(10%); 
+}
+
+#2d canvas{
+  image-rendering: pixelated;
+}
